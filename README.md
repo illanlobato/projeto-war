@@ -68,7 +68,5 @@ gcc MOD3-pratica.c -o war.exe
 
 ---
 
-👨‍💻 Aluno
-
 Aluno: Illan Lobato
 Curso: Estrutura de Dados – Estácio
