@@ -1,46 +1,56 @@
-Projeto WAR – Cadastro de Territórios
+Projeto WAR – Nível Mestre
 
-Este projeto faz parte da disciplina Estrutura de Dados da Estácio.
-Ele implementa, em linguagem C, o início do jogo WAR com foco no cadastro e exibição de territórios.
+Este projeto foi desenvolvido na disciplina Estrutura de Dados (Estácio) e implementa, em linguagem C, uma versão simplificada do jogo WAR.
+
+A entrega corresponde ao Nível Mestre (MOD3-pratica.c), que já engloba as funcionalidades dos níveis anteriores (Novato e Aventureiro).
 
 
 ---
 
-Funcionalidades
+🚀 Funcionalidades
 
-🔹 Nível Novato (MOD1-pratica.c)
+🔹 Nível Novato (incluído no Mestre)
 
 Estrutura struct para representar cada território.
 
-Vetor para registrar até 5 territórios.
+Cadastro de 5 territórios fixos.
 
 Exibição inicial dos territórios cadastrados.
 
 
-🔹 Nível Aventureiro (MOD2-pratica.c)
+🔹 Nível Aventureiro (incluído no Mestre)
 
-Cadastro dinâmico de territórios (definindo quantidade no início).
-
-Entrada de dados para nome, cor do exército e quantidade de tropas.
+Entrada dinâmica de dados para nome, cor do exército e quantidade de tropas.
 
 Exibição completa dos territórios cadastrados.
 
+Validação básica de entradas.
 
-🔹 Nível Mestre (em desenvolvimento)
 
-Futuras funcionalidades serão adicionadas aqui.
+🔹 Nível Mestre (implementado neste projeto)
+
+Cadastro de 5 continentes/exércitos.
+
+Sorteio aleatório de uma missão para o jogador (destruir um exército específico).
+
+Menu de ações interativo:
+
+Atacar (simulação).
+
+Verificar missão.
+
+Sair do jogo.
+
+
+Uso de funções auxiliares para leitura e validação de entradas.
 
 
 
 ---
 
-Arquivos do projeto
+📂 Arquivos do Projeto
 
-MOD1-pratica.c → código-fonte em C do nível Novato.
-
-MOD2-pratica.c → código-fonte em C do nível Aventureiro.
-
-war.exe → executável gerado após compilação.
+MOD3-pratica.c → código-fonte em C do Nível Mestre (entrega final).
 
 README.md → documentação do projeto.
 
@@ -48,23 +58,17 @@ README.md → documentação do projeto.
 
 ---
 
-Como compilar e executar
+⚙ Como compilar e executar
 
 No terminal, dentro da pasta do projeto, execute:
 
-gcc MOD1-pratica.c -o war.exe
-./war.exe
-
-Ou, para rodar o nível aventureiro:
-
-gcc MOD2-pratica.c -o war.exe
+gcc MOD3-pratica.c -o war.exe
 ./war.exe
 
 
 ---
 
-Autor
+👨‍💻 Aluno
 
 Aluno: Illan Lobato
-
 Curso: Estrutura de Dados – Estácio
