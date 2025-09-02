@@ -29,9 +29,9 @@ Validação básica de entradas.
 
 🔹 Nível Mestre (implementado neste projeto)
 
-Cadastro de 5 continentes/exércitos.
+Cadastro de 5 continentes.
 
-Sorteio aleatório de uma missão para o jogador (destruir um exército específico).
+Sorteio aleatório de uma missão para o jogador (ex.: destruir um exército específico).
 
 Menu de ações interativo:
 
@@ -68,5 +68,8 @@ gcc MOD3-pratica.c -o war.exe
 
 ---
 
+👤 Autor
+
 Aluno: Illan Lobato
+
 Curso: Estrutura de Dados – Estácio
